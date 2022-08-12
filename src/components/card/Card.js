@@ -8,6 +8,7 @@ function Card({ name }) {
   const [dataState, setDataState] = useState()
 
   useEffect(() => {
+    data(name);
     const intervalId = setInterval(() => {
       data(name);
     }, 15000);
