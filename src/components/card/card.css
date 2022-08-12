@@ -1,0 +1,80 @@
+.card-container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.card-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.card-healthy{
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+
+}
+
+.card-error{
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+    
+}
+
+.card-healthy-time{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card-error-time{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card-healthy-hostname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.card-error-hostname{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
