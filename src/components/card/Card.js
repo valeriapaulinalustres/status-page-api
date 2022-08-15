@@ -11,6 +11,7 @@ function Card({ name }) {
     data(name);
     const intervalId = setInterval(() => {
       data(name);
+      //Here you can change the time interval. 15000 miliseconds = 15 seconds.
     }, 15000);
     return () => clearInterval(intervalId);
   }, []);
